@@ -7,13 +7,14 @@ drupal:
     name: "behat_traits"
     user: "root"
     password: ""
+  site:
+    profile: "minimal"
+    existing_config: true
   post_install:
     - "./vendor/bin/drush cr"
   settings:
-    settings:
-      file_scan_ignore_directories:
-        - "vendor"
-        - "${drupal.root}"
+    config_directories:
+      sync: "../tests/config/sync"
 
 selenium:
   host: "http://selenium"
