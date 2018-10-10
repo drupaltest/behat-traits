@@ -1,0 +1,14 @@
+uuid: 6bb3f272-5795-4a0f-8330-913d9c9aff13
+name: 'Site name'
+mail: info@example.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
