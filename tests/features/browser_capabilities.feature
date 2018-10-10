@@ -1,4 +1,5 @@
 @api
+# Tests for BrowserCapabilityDetectionTrait.
 Feature: Browser capability detection
   In order to be able to write user scenarios that work on all possible browser configurations
   As an test engineer
