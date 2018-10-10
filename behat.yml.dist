@@ -5,6 +5,7 @@ default:
         - %paths.base%/tests/features
       contexts:
         - DrupalTest\BehatTraits\Context\BrowserCapabilityDetectionContext
+        - DrupalTest\BehatTraits\Context\EntityContext
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
   extensions:

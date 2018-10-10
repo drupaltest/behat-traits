@@ -18,13 +18,15 @@ use PHPUnit\Framework\Assert;
  * context class in your `behat.yml` file so you can use the provided steps in
  * your user scenarios.
  *
- * @see DrupalTest\BehatTraits\Traits\BrowserCapabilityDetectionTrait
+ * @see \DrupalTest\BehatTraits\Traits\BrowserCapabilityDetectionTrait
  */
 class BrowserCapabilityDetectionContext extends RawMinkContext {
 
   use BrowserCapabilityDetectionTrait;
 
   /**
+   * Verifies that the browser supports JavaScript.
+   *
    * @Then the browser should support JavaScript
    */
   public function assertBrowserSupportsJavaScript(): void {
@@ -32,6 +34,8 @@ class BrowserCapabilityDetectionContext extends RawMinkContext {
   }
 
   /**
+   * Verifies that the browser does not support JavaScript.
+   *
    * @Then the browser should not support JavaScript
    */
   public function assertBrowserDoesNotSupportJavaScript(): void {
