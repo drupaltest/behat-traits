@@ -54,8 +54,8 @@ pipeline:
 
 matrix:
   IMAGE_PHP:
-    - fpfis/httpd-php-dev:7.1
-    - fpfis/httpd-php-dev:7.2
+    - fpfis/httpd-php-dev:7.1-ubuntu
+    - fpfis/httpd-php-dev:7.2-ubuntu
   COMPOSER_BOUNDARY:
     - lowest
     - highest
