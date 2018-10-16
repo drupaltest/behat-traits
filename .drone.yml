@@ -43,12 +43,6 @@ pipeline:
     commands:
       - ./vendor/bin/grumphp run
 
-  phpunit:
-    group: test
-    image: ${IMAGE_PHP=fpfis/httpd-php-dev:7.1}
-    commands:
-      - ./vendor/bin/phpunit
-
   behat:
     group: test
     image: ${IMAGE_PHP=fpfis/httpd-php-dev:7.1}
