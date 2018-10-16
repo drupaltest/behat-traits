@@ -10,7 +10,7 @@
     },
     "require-dev": {
         "composer/installers": "~1.2",
-        "drush/drush": "~9.0",
+        "drush/drush": "~9.4",
         "drupal-composer/drupal-scaffold": "~2.2",
         "openeuropa/code-review": "^1.0.0-alpha4",
         "openeuropa/task-runner": "^1.0.0-beta3",
