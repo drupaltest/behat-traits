@@ -12,8 +12,6 @@ pipeline:
   composer-install-lowest:
     group: prepare
     image: ${IMAGE_PHP=fpfis/httpd-php-dev:7.1}
-    volumes:
-      - /cache:/cache
     commands:
       - composer update --prefer-lowest
     when:
@@ -23,8 +21,6 @@ pipeline:
   composer-install-highest:
     group: prepare
     image: ${IMAGE_PHP=fpfis/httpd-php-dev:7.1}
-    volumes:
-      - /cache:/cache
     commands:
       - composer update
     when:
