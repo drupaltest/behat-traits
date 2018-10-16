@@ -23,7 +23,7 @@ trait EntityTrait {
    *   The entity type to check.
    * @param string $label
    *   The label to check.
-   * @param string $bundle
+   * @param string|null $bundle
    *   Optional bundle to check. If omitted, the entity can be of any bundle.
    *
    * @return \Drupal\Core\Entity\EntityInterface
