@@ -13,7 +13,7 @@
         "drush/drush": "~9.0",
         "drupal-composer/drupal-scaffold": "~2.2",
         "openeuropa/code-review": "~0.2",
-        "openeuropa/task-runner": "dev-OPENEUROPA-1272",
+        "openeuropa/task-runner": "^1.0.0-beta3",
         "webflo/drupal-core-require-dev": "~8.6"
     },
     "scripts": {
