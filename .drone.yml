@@ -28,7 +28,7 @@ pipeline:
         COMPOSER_BOUNDARY: highest
 
   site-install:
-    group: prepare
+    group: install
     image: ${IMAGE_PHP=fpfis/httpd-php-dev:7.1}
     commands:
       - ./vendor/bin/run drupal:site-install
