@@ -1,0 +1,25 @@
+default:
+  suites:
+    default:
+      paths:
+        - %paths.base%/tests/features
+      contexts:
+        - DrupalTest\BehatTraits\Context\BrowserCapabilityDetectionContext
+        - DrupalTest\BehatTraits\Context\EntityContext
+        - Drupal\DrupalExtension\Context\MinkContext
+        - Drupal\DrupalExtension\Context\DrupalContext
+  extensions:
+    Behat\MinkExtension:
+      base_url: "${drupal.base_url}"
+      javascript_session: 'selenium2'
+      browser_name: 'chrome'
+      goutte: ~
+      selenium2:
+        wd_host: '${selenium.host}:${selenium.port}/wd/hub'
+        capabilities: { "browser": "chrome", "version": "*" }
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "build"
+  formatters:
+    progress: ~
