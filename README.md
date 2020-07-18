@@ -3,6 +3,19 @@
 A collection of traits that help to quickly develop custom Context classes for
 testing Drupal sites using Behat.
 
+The following traits are included:
+
+* `BrowserCapabilityDetectionTrait`: allows to detect whether a scenario is
+  using a browser that supports JavaScript. This can be used to write step
+  definitions that can interact both with JavaScript behaviors and non-JS
+  fallbacks.
+* `EntityTrait`: provides methods that allow to interact with entities using
+  human readable names in step definitions, and translate them to machine names.
+* `PageCacheTrait`: allows to write step definitions that are aware of whether
+  the page that is currently loaded is cached or cacheable.
+
+Each of these traits come with an example context that include some step
+definitions to demonstrate how to use the traits.
 
 ## Requirements
 
