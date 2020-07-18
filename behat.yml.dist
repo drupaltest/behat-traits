@@ -6,6 +6,7 @@ default:
       contexts:
         - DrupalTest\BehatTraits\Context\BrowserCapabilityDetectionContext
         - DrupalTest\BehatTraits\Context\EntityContext
+        - DrupalTest\BehatTraits\Context\PageCacheContext
         - Drupal\DrupalExtension\Context\MinkContext
         - Drupal\DrupalExtension\Context\DrupalContext
   extensions:

@@ -13,7 +13,7 @@ _core:
 id: stark_tools
 theme: stark
 region: sidebar_first
-weight: 0
+weight: -4
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
@@ -23,4 +23,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }
