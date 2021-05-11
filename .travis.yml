@@ -23,7 +23,7 @@ before_install:
 
 install:
   - 'docker-compose exec web composer install  --ansi --no-suggest --no-progress'
-  - '[[ ${COMPOSER_BOUNDARY} == "lowest" ]] && docker-compose exec web composer update --prefer-lowest --ansi --no-suggest --no-progress'
+  - '[[ ${COMPOSER_BOUNDARY} != "lowest" ]] || docker-compose exec web composer update --prefer-lowest --ansi --no-suggest --no-progress'
   - 'docker-compose exec web chown -R www-data:www-data build'
 
 before_script:
