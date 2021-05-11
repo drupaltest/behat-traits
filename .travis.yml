@@ -1,14 +1,10 @@
 sudo: required
-language: php
 
-php:
-  - 7.3
+services:
+  - docker
 
 git:
   depth: 1
-
-services:
-- docker
 
 env:
   global:
@@ -16,7 +12,6 @@ env:
   matrix:
     - COMPOSER_BOUNDARY=lowest
     - COMPOSER_BOUNDARY=highest
-
 
 before_install:
   - 'docker-compose up -d'
