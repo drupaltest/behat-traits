@@ -13,8 +13,8 @@ drupal:
   post_install:
     - "./vendor/bin/drush cr"
   settings:
-    config_directories:
-      sync: "../tests/config/sync"
+    settings:
+      config_sync_directory: "../tests/config/sync"
 
 selenium:
   host: "http://selenium"

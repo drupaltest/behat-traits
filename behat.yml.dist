@@ -2,7 +2,7 @@ default:
   suites:
     default:
       paths:
-        - %paths.base%/tests/features
+        - "%paths.base%/tests/features"
       contexts:
         - DrupalTest\BehatTraits\Context\BrowserCapabilityDetectionContext
         - DrupalTest\BehatTraits\Context\EntityContext
