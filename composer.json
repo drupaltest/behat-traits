@@ -4,8 +4,8 @@
     "type": "library",
     "license": "EUPL-1.2",
     "require": {
-        "php": "~7.2",
-        "drupal/core": "^8.9 || ^9",
+        "php": "~7.1",
+        "drupal/core": "^8.6 || ^9",
         "drupal/drupal-extension": "~4.0"
     },
     "require-dev": {
@@ -15,8 +15,6 @@
         "guzzlehttp/guzzle": "~6.3",
         "instaclick/php-webdriver": "^1.4.5",
         "nikic/php-parser": "~3.0|~4.0",
-        "openeuropa/code-review": "~1.6",
-        "openeuropa/task-runner": "^1.0.0-beta6",
         "drupal/core-dev": "^8.9 || ^9"
     },
     "scripts": {
