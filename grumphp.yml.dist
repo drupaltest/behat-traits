@@ -6,9 +6,10 @@ parameters:
     - '/[A-Z].+\./'
   extra_tasks:
     phpparser:
-      ignore_patterns: %tasks.phpcs.ignore_patterns%
+      ignore_patterns: "%tasks.phpcs.ignore_patterns%"
       visitors:
         declare_strict_types: ~
-      triggered_by: %tasks.phpcs.triggered_by%
-  extensions:
-    - OpenEuropa\CodeReview\ExtraTasksExtension
+      triggered_by: "%tasks.phpcs.triggered_by%"
+grumphp:
+  git_hook_variables:
+    EXEC_GRUMPHP_COMMAND: 'docker-compose exec -T web'

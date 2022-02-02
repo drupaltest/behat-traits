@@ -6,3 +6,5 @@
 /grumphp.yml
 /runner.yml
 /vendor
+/.editorconfig
+/.gitattributes
