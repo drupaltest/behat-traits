@@ -54,6 +54,7 @@ trait EntityTrait {
 
     $query = $storage->getQuery()
       ->condition($entity_definition->getKey('label'), $label)
+      ->accessCheck(FALSE)
       ->range(0, 1);
 
     // Optionally filter by bundle.
