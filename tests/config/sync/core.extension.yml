@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   block: 0
   dblog: 0
@@ -6,8 +8,10 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  mysql: 0
   node: 0
   page_cache: 0
+  path_alias: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -19,5 +23,3 @@ module:
 theme:
   stark: 0
 profile: minimal
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

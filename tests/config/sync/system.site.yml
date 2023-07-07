@@ -1,4 +1,7 @@
-uuid: 6bb3f272-5795-4a0f-8330-913d9c9aff13
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+langcode: en
+uuid: ab8ad9b6-a010-4789-b6c7-f865f1829d10
 name: 'Site name'
 mail: info@example.org
 slogan: ''
@@ -8,7 +11,4 @@ page:
   front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
