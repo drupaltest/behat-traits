@@ -21,8 +21,8 @@ definitions to demonstrate how to use the traits.
 
 This depends on the following software:
 
-* [PHP 7.1](http://php.net/)
-* [Drupal 8.6](https://www.drupal.org/)
+* [PHP 8.0](http://php.net/)
+* [Drupal 9.4](https://www.drupal.org/)
 * [Behat Drupal Extension](https://github.com/jhedstrom/drupalextension)
 
 ## Installation
