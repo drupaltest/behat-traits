@@ -4,16 +4,16 @@
     "type": "library",
     "license": "EUPL-1.2",
     "require": {
-        "php": ">=7.1",
-        "drupal/core": "^8.6 || ^9",
-        "drupal/drupal-extension": "~4.0"
+        "php": ">=8.0",
+        "drupal/core": "^9.4 || ^10",
+        "drupal/drupal-extension": "~5.0"
     },
     "require-dev": {
         "composer/installers": "~1.2",
-        "drush/drush": "~10.3",
-        "drupal/core-dev": "^8.9 || ^9",
-        "drupal/core-composer-scaffold": "^8.9 || ^9",
-        "guzzlehttp/guzzle": "~6.3",
+        "drush/drush": "~12.1",
+        "drupal/core-dev": "^9.4 || ^10",
+        "drupal/core-composer-scaffold": "^9.4 || ^10",
+        "guzzlehttp/guzzle": "~7.0",
         "instaclick/php-webdriver": "^1.4.5",
         "nikic/php-parser": "~3.0|~4.0",
         "openeuropa/code-review": "^1.6|^2.0",
@@ -51,7 +51,10 @@
         "allow-plugins": {
             "composer/installers": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "cweagans/composer-patches": true,
+            "phpro/grumphp": true,
+            "phpstan/extension-installer": true
         },
         "discard-changes": true
     },
